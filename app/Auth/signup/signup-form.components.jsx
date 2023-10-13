@@ -7,28 +7,28 @@ function SignUpForm() {
         <label className='text-lg font-semibold'>Username</label>
         <input
           type='text'
-          className='border-2 p-1'
+          className='border-2 p-1 '
           placeholder='Prof. Aceng Pakem Spd.Mn'
           required
         />
         <label className='text-lg font-semibold'>Email</label>
         <input
           type='email'
-          className='border-2 p-1'
+          className='border-2 p-1 rounded-md'
           placeholder='company@domain.com'
           required
         />
         <label className='text-lg font-semibold'>Password</label>
         <input
           type='password'
-          className='border-2 p-1'
+          className='border-2 p-1 rounded-md'
           placeholder='********'
           required
         />
         <label className='text-lg font-semibold'>Confirm Password</label>
         <input
           type='password'
-          className='border-2 p-1'
+          className='border-2 p-1 rounded-md'
           placeholder='********'
           required
         />
