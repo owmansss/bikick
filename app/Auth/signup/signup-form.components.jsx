@@ -7,7 +7,7 @@ function SignUpForm() {
         <label className='text-lg font-semibold'>Username</label>
         <input
           type='text'
-          className='border-2 p-1 '
+          className='border-2 p-1 rounded-md'
           placeholder='Prof. Aceng Pakem Spd.Mn'
           required
         />
