@@ -7,14 +7,14 @@ function Form() {
         <label className='text-lg font-semibold'>Email</label>
         <input
           type='email'
-          className='border-2 p-1'
+          className='border-2 p-1 rounded-md'
           placeholder='company@domain.com'
           required
         />
         <label className='text-lg font-semibold'>Password</label>
         <input
           type='password'
-          className='border-2 p-1'
+          className='border-2 p-1 rounded-md'
           placeholder='********'
           required
         />

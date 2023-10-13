@@ -24,7 +24,7 @@ function Auth() {
             href='/Auth/login'
             className='w-1/2 h-[3vh] md:h-[4vh] md:p-1 mx-auto border-2 bg-blue-500 text-center text-white rounded-xl'
           >
-            sign in
+            Sign In
           </a>
         </div>
       </div>
