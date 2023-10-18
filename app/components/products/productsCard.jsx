@@ -1,9 +1,10 @@
 import Image from "next/image"
 
-function ProductsCard({name, img, price}) {
+function ProductsCard({name, img, price, id}) {
   return (
-    <div className='grid mx-auto shadow-lg shadow-slate-200 rounded-xl p-1'>
+    <div className='grid mx-auto shadow-lg shadow-slate-200 rounded-xl p-1' key={id}>
       <Image
+      key={id}
         src={img}
         width={1000}
         height={1000}

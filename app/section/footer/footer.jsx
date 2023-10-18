@@ -22,7 +22,7 @@ function Footer() {
   ]
 
   return (
-    <div className='min-w-screen h-[40vh] mx-0 grid border-t-2'>
+    <footer className='min-w-screen h-[40vh] mx-0 grid border-t-2'>
       <div className='flex justify-around'>
         <div className='my-auto'>
           <Image
@@ -70,7 +70,7 @@ function Footer() {
           </button>
         </form>
       </div>
-    </div>
+    </footer>
   )
 }
 

@@ -1,7 +1,7 @@
-export default function Hamburger({name, href}) {
+export default function Hamburger({name, href, index}) {
   return (
-    <div className=''>
+    <header className='' key={index}>
      <a href={href}>{name}</a>
-    </div>
+    </header>
   )
 }

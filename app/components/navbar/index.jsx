@@ -24,7 +24,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className=' '>
+    <header className=''>
       <div className='border-b-2 mb-5 border-gray-500 w-full h-[7vh] my-3 mx-auto bg-transparent flex justify-around'>
         <Link href='/' className='flex flex-row items-center gap-3'>
           <img src='/bg4.svg' alt='home' className='h-full' />
