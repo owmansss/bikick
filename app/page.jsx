@@ -1,6 +1,5 @@
 'use client'
 
-import Footer from './section/footer/footer'
 import Hero from './section/hero/hero'
 import Produts from './section/Products/products'
 import { motion, useSpring, useScroll } from 'framer-motion'
@@ -11,11 +10,6 @@ import Gallery from './section/gallery/gallery'
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis()
-
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-
     function raf(time) {
       lenis.raf(time)
       requestAnimationFrame(raf)

@@ -11,10 +11,6 @@ const Gallery = () => {
   useEffect(() => {
     const lenis = new Lenis()
 
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-
     function raf(time) {
       lenis.raf(time)
       requestAnimationFrame(raf)
@@ -25,7 +21,7 @@ const Gallery = () => {
   const targetRef = useRef(null)
   const { scrollYProgress } = useScroll({
     target: targetRef,
-    offset:['center end', 'end start']
+    offset: ['center end', 'end start'],
   })
   const x = useTransform(scrollYProgress, [0, 1], ['1%', '-100%'])
 
